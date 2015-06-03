@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<title>TinyLoggly Test</title>
+<script src=tinyloggly.js></script>
+
+<body>
+<script>
+	var testValue = {
+		testing: {
+			test1: 'hello',
+			test2: 123,
+			test3: true,
+			test4É: 'É é is also used for /ɛ/ éeː'
+		}
+	}
+	TinyLoggly.log(testValue);
+</script>
