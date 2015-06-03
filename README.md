@@ -4,6 +4,8 @@ Pushes JSON data into Loggly.com from the browser. Tries to have readable code, 
 
 *Beware* window.screen, window.navigator, window.location, and window.performance.timing are NOT enumerable and values need to be manually copied if you want to pass them into `TinyLoggly.log()`.
 
+You must change the variable LOGGLY_KEY to your own Loggly key for the code to work.
+
 Please don't report bugs, features, or ask me anything. I didn't actually use this code because of data privacy issues.
 
 Keys are modified:
