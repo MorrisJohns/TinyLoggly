@@ -27,6 +27,8 @@ Loggly limits keys to 100 or so (I think across all JSON input) and just won't p
 
 This code improves the randomisation of sessionId's (compared to the default loggly JavaScript code) by making them properly random in modern browsers.
 
+Maybe still get Mapping Conflict if mix Object/Array/String for the same key - fix would be to append other unique identifiers to the key for each of the accepted types (same as we do for Number).
+
 Relevant loggly documentation is at:
 
  - https://www.loggly.com/docs/http-endpoint/
